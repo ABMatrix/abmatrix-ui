@@ -22,7 +22,7 @@
       "@nuxtjs/i18n",
       "nuxt-breakpoints",
       "@types/jest",
-      "@types/scrollreveal"
+      "@nuxtjs/color-mode"
     ]
   },
   "ts-node": {

@@ -27,7 +27,16 @@ export default {
     hoistUseStatements: true,
   },
 
-  plugins: ['~/plugins/directive/index.js'],
+  plugins: [
+    '~/plugins/directive/index.js',
+    '~/plugins/element-ui.js',
+    '~/plugins/confirm-dialog.ts',
+    '~/plugins/floating-vue.ts',
+    '~/plugins/vue-final-modal.ts',
+    '~/plugins/overlay-scrollbars.ts',
+    '~/plugins/helpers.ts',
+    '~/plugins/message.ts',
+  ],
 
   components: {
     dirs: ['~/components', '~/components/icons', '~/blocks'],
@@ -37,6 +46,7 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/style-resources',
+    '@nuxtjs/color-mode',
   ],
 
   modules: ['nuxt-breakpoints', '@nuxtjs/i18n'],

@@ -1,8 +1,12 @@
 <template>
   <div class="preview-card">
+    <span class="title">{{ name }}</span>
     <slot />
-    <div class="actions" @click="copyIcon">
-      <copy-icon></copy-icon>
+    <div class="actions" @click.stop="copyIcon">
+      <VTooltip :show="show">
+        <copy-icon></copy-icon>
+        <template #popper> {{ tooltip }} </template>
+      </VTooltip>
     </div>
   </div>
 </template>
@@ -20,9 +24,19 @@ export default Vue.extend({
       default: '',
     },
   },
+  data() {
+    return {
+      tooltip: 'copy',
+      show: true,
+    }
+  },
   methods: {
     copyIcon() {
       copy((icons as any)[this.name])
+      this.tooltip = 'copied'
+      setTimeout(() => {
+        this.tooltip = 'copy'
+      }, 3000)
     },
   },
 })
@@ -38,6 +52,10 @@ export default Vue.extend({
   box-shadow: $shadow;
   padding: 10px;
   @include flexCc;
+  .title {
+    position: absolute;
+    top: 20px;
+  }
   .actions {
     position: absolute;
     bottom: 4px;

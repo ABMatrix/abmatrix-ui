@@ -23,26 +23,52 @@
       <arrow-forward-icon :size="size"
     /></preview-card>
     <preview-card name="CloseIcon"> <close-icon :size="size" /></preview-card>
-    <preview-card> <add-link-icon :size="size" /></preview-card>
-    <preview-card> <align-left-icon :size="size" /></preview-card>
-    <preview-card> <align-right-icon :size="size" /></preview-card>
-    <preview-card> <align-center-icon :size="size" /></preview-card>
-    <preview-card> <bold-icon :size="size" /></preview-card>
-    <preview-card> <campaign-icon :size="size" /></preview-card>
-    <preview-card> <clear-icon :size="size" /></preview-card>
-    <preview-card> <code-icon :size="size" /></preview-card>
-    <preview-card> <compass-icon :size="size" /></preview-card>
-    <preview-card> <content-icon :size="size" /></preview-card>
-    <preview-card> <delete-icon :size="size" /></preview-card>
-    <preview-card> <copy-icon :size="size" /></preview-card>
-    <preview-card> <drag-handle-icon :size="size" /></preview-card>
-    <preview-card> <edit-icon :size="size" /></preview-card>
-    <preview-card> <emoji-icon :size="size" /></preview-card>
-    <preview-card> <event-icon :size="size" /></preview-card>
-    <preview-card> <exit-icon :size="size" /></preview-card>
-    <preview-card> <favorite-icon :size="size" /></preview-card>
-    <preview-card> <file-icon :size="size" /></preview-card>
-    <preview-card> <font-size-icon :size="size" /></preview-card>
+    <preview-card name="AddLinkIcon">
+      <add-link-icon :size="size"
+    /></preview-card>
+    <preview-card name="AlignLeftIcon">
+      <align-left-icon :size="size"
+    /></preview-card>
+    <preview-card name="AlignRightIcon">
+      <align-right-icon :size="size"
+    /></preview-card>
+    <preview-card name="AlignCenterIcon">
+      <align-center-icon :size="size"
+    /></preview-card>
+    <preview-card name="BoldIcon"> <bold-icon :size="size" /></preview-card>
+    <preview-card name="CampaignIcon">
+      <campaign-icon :size="size"
+    /></preview-card>
+    <preview-card name="ClearIcon"> <clear-icon :size="size" /></preview-card>
+    <preview-card name="CodeIcon"> <code-icon :size="size" /></preview-card>
+    <preview-card name="CompassIcon">
+      <compass-icon :size="size"
+    /></preview-card>
+    <preview-card name="ContentIcon">
+      <content-icon :size="size"
+    /></preview-card>
+    <preview-card name="DeleteIcon"> <delete-icon :size="size" /></preview-card>
+    <preview-card name="CopyIcon"> <copy-icon :size="size" /></preview-card>
+    <preview-card name="LightModeIcon">
+      <light-mode-icon :size="size"
+    /></preview-card>
+    <preview-card name="DarkModeIcon">
+      <dark-mode-icon :size="size"
+    /></preview-card>
+    <preview-card name="DragHandleIcon">
+      <drag-handle-icon :size="size"
+    /></preview-card>
+    <preview-card name="EditIcon"> <edit-icon :size="size" /></preview-card>
+    <preview-card name="EmojiIcon"> <emoji-icon :size="size" /></preview-card>
+    <preview-card name="EventIcon"> <event-icon :size="size" /></preview-card>
+    <preview-card name="ExitIcon"> <exit-icon :size="size" /></preview-card>
+    <preview-card name="FavoriteIcon">
+      <favorite-icon :size="size"
+    /></preview-card>
+    <preview-card name="FileIcon"> <file-icon :size="size" /></preview-card>
+    <preview-card name="FontSizeIcon">
+      <font-size-icon :size="size"
+    /></preview-card>
     <preview-card> <format-bold-icon :size="size" /></preview-card>
     <preview-card> <forwarding-icon :size="size" /></preview-card>
     <preview-card> <highlight-icon :size="size" /></preview-card>
@@ -51,7 +77,6 @@
     <preview-card> <image-icon :size="size" /></preview-card>
     <preview-card> <info-icon :size="size" /></preview-card>
     <preview-card> <italicl-icon :size="size" /></preview-card>
-    <preview-card> <like-icon :size="size" /></preview-card>
     <preview-card> <link-icon :size="size" /></preview-card>
     <preview-card> <live-icon :size="size" /></preview-card>
     <preview-card> <lock-icon :size="size" /></preview-card>

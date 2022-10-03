@@ -1,12 +1,5 @@
 <template>
-  <svg
-    viewBox="0 0 20 20"
-    :fill="color"
-    :width="size"
-    :height="size"
-    class="favorite-icon"
-    v-on="$listeners"
-  >
+  <svg viewBox="0 0 20 20" :width="size" :height="size">
     <path
       v-if="!like"
       xmlns="http://www.w3.org/2000/svg"
@@ -33,21 +26,8 @@ export default Vue.extend({
     },
     like: {
       type: Boolean,
-      default: false,
+      default: true,
     },
   },
 })
 </script>
-
-<style lang="scss">
-.favorite-icon {
-  transition: 0.3s linear;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-  svg {
-    fill: red;
-  }
-}
-</style>

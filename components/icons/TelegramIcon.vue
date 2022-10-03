@@ -3,7 +3,6 @@
     <svg
       :width="size"
       :height="size"
-      :fill="color"
       viewBox="0 0 30 30"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -35,17 +34,6 @@ export default Vue.extend({
       type: Number,
       default: 30,
     },
-    color: {
-      type: String,
-      default: '#40a9ff',
-    },
   },
 })
 </script>
-
-<style lang="scss" scoped>
-.telegram-icon {
-  cursor: pointer;
-  @include flexRc();
-}
-</style>
