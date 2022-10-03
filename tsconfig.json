@@ -22,9 +22,14 @@
       "@nuxtjs/i18n",
       "nuxt-breakpoints",
       "@types/jest",
-      "@types/scrollreveal",
-      "@nuxt/image"
+      "@types/scrollreveal"
     ]
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "commonjs"
+    }
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

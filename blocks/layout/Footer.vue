@@ -1,10 +1,5 @@
 <template>
-  <div class="layout-footer">
-    <div class="social-icons">
-      <twitter-icon></twitter-icon>
-      <discord-icon></discord-icon>
-    </div>
-  </div>
+  <div class="layout-footer"></div>
 </template>
 
 <script lang="ts">
@@ -19,8 +14,6 @@ export default Vue.extend({
 .layout-footer {
   height: 200px;
   width: 100%;
-  background: $secondary;
-  color: $onSecondary;
   @include flexRc;
   .social-icons {
     @include flexRc;

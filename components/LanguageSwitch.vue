@@ -45,12 +45,12 @@ export default Vue.extend({
 .language-switch {
   position: relative;
   border-radius: 20px;
-  border: 2px solid #ffffff;
+  border: 2px solid $border;
   width: 100px;
   height: 40px;
   padding: 4px 0 6px 0;
   &:hover {
-    background: #ffffff50;
+    background: $primary;
   }
   .button {
     height: 28px;
@@ -58,14 +58,15 @@ export default Vue.extend({
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: $onBackground;
     cursor: pointer;
   }
   .menu {
     margin-top: 20px;
     width: 100px;
     height: 100px;
-    background-color: white;
+    background-color: $secondary;
+    box-shadow: $shadow;
     border-radius: 10px;
     opacity: 0;
     padding: 19px;

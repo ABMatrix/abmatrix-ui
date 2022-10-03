@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="default-layout">
     <LayoutHeader></LayoutHeader>
-    <Nuxt />
-    <LayoutFooter></LayoutFooter>
+    <Nuxt class="nuxt-page" />
   </div>
 </template>
 
@@ -13,3 +12,12 @@ export default Vue.extend({
   name: 'DefaultLayout',
 })
 </script>
+
+<style lang="scss" scoped>
+.default-layout {
+  height: 100%;
+  .nuxt-page {
+    background: $background;
+  }
+}
+</style>

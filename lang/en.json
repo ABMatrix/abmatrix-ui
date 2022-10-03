@@ -1,3 +1,7 @@
 {
-  "appName": "website-template"
+  "appName": "website-template",
+  "layoutHeader": {
+    "component": "Components",
+    "icon": "Icons"
+  }
 }

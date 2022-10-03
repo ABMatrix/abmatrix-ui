@@ -13,7 +13,8 @@
     "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "generate:components": "ts-node tools/generate.ts"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --cache",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "7.3.0",
+    "copy-to-clipboard": "^3.3.2",
     "core-js": "3.25.3",
     "nuxt": "2.15.8",
     "nuxt-breakpoints": "1.1.9",
@@ -62,6 +64,7 @@
     "stylelint-config-recommended-vue": "1.4.0",
     "stylelint-config-standard": "24.0.0",
     "ts-jest": "27.1.5",
+    "ts-node": "^10.9.1",
     "vue-jest": "3.0.7"
   }
 }

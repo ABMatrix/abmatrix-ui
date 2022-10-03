@@ -1,3 +1,7 @@
 {
-  "appName": "website-template"
+  "appName": "website-template",
+  "layoutHeader": {
+    "component": "组件",
+    "icon": "图标"
+  }
 }

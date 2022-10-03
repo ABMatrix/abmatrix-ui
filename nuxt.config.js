@@ -6,7 +6,7 @@ export default {
     host: '0.0.0.0',
   },
   head: {
-    title: 'Website template',
+    title: 'ABMatrxi UI',
     meta: [
       { charset: 'utf-8' },
       {
@@ -14,7 +14,7 @@ export default {
         content:
           'width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1,maximum-scale=1',
       },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'ABMatrix UI' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -62,7 +62,7 @@ export default {
     defaultLocale: 'en-US',
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'i18n_website-template',
+      cookieKey: 'i18n_abmatrix_ui',
       redirectOn: 'root',
     },
   },

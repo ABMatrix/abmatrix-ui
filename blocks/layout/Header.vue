@@ -1,9 +1,24 @@
 <template>
-  <div class="header">
-    <nuxt-logo></nuxt-logo>
+  <div class="layout-header">
+    <div class="left-panel">
+      <nuxt-link :to="localePath('/')">
+        <span>ABMatrix UI</span>
+      </nuxt-link>
+      <ul>
+        <li>
+          <nuxt-link :to="localePath('/')">
+            {{ $t('layoutHeader.component') }}
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link :to="localePath('/icons')">
+            {{ $t('layoutHeader.icon') }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </div>
     <div class="right-panel">
       <language-switch></language-switch>
-      <div>Launch App</div>
     </div>
   </div>
 </template>
@@ -17,17 +32,30 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.header {
+.layout-header {
   @include flexRsb;
   height: 60px;
   width: 100%;
   z-index: 100;
   padding: 0 20px;
   position: fixed;
+  background: $secondary;
   color: $onSecondary;
+  border-bottom: 1px $border solid;
+  .left-panel {
+    @include flexR;
+    span {
+      font-size: 22px;
+      margin-right: 20px;
+    }
+    ul li {
+      font-size: 16px;
+      display: inline;
+      margin-right: 16px;
+    }
+  }
   .right-panel {
     @include flexR;
-    @include flexRGap(10px);
     justify-content: flex-end;
   }
 }
