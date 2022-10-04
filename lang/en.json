@@ -3,5 +3,9 @@
   "layoutHeader": {
     "component": "Components",
     "icon": "Icons"
+  },
+  "copied": "Copy successfully",
+  "homeButtonsGrid": {
+    "button": "Button"
   }
 }

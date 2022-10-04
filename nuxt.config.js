@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: 'ABMatrix UI' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
   },
 
   css: ['~/assets/styles/main.scss'],
@@ -39,7 +39,12 @@ export default {
   ],
 
   components: {
-    dirs: ['~/components', '~/components/icons', '~/blocks'],
+    dirs: [
+      '~/components',
+      '~/components/icons',
+      '~/components/buttons',
+      '~/blocks',
+    ],
   },
 
   buildModules: [

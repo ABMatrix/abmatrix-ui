@@ -3,5 +3,9 @@
   "layoutHeader": {
     "component": "組件",
     "icon": "圖標"
+  },
+  "copied": "複製成功",
+  "homeButtonsGrid": {
+    "button": "按鈕"
   }
 }

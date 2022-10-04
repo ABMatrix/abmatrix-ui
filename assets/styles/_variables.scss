@@ -1,11 +1,32 @@
+.light-mode {
+  --background: #e7eed2;
+  --onBackground: #000;
+  --secondary: #fff;
+  --onSecondary: #171e29;
+  --lightText: #a6a6a6;
+  --border: #f1f1f1;
+  --surface: #f1f1f1;
+  --onSurface: #171e29;
+}
+.dark-mode {
+  --background: #293605;
+  --onBackground: rgb(255, 255, 255);
+  --secondary: #000;
+  --onSecondary: #fff;
+  --lightText: #282828;
+  --border: #262626;
+  --surface: #1f1f1f;
+  --onSurface: #d3d3d3;
+}
+
 $primary: #368c72;
-$onParimary: #ffffff;
-$background: #e7eed2;
-$onBackground: #000;
-$secondary: #fff;
-$onSecondary: #171e29;
-$surface: #f1f1f1;
-$onSurface: #171e29;
-$lightText: #a6a6a6;
+$onPrimary: #ffffff;
+$background: var(--background);
+$onBackground: var(--onBackground);
+$secondary: var(--secondary);
+$onSecondary: var(--onSecondary);
+$surface: var(--surface);
+$onSurface: var(--onSurface);
+$lightText: var(--lightText);
 $shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
-$border: #f1f1f1;
+$border: var(--border);

@@ -18,6 +18,7 @@
       </ul>
     </div>
     <div class="right-panel">
+      <theme-switch></theme-switch>
       <language-switch></language-switch>
     </div>
   </div>
@@ -34,7 +35,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .layout-header {
   @include flexRsb;
-  height: 60px;
+  height: 80px;
   width: 100%;
   z-index: 100;
   padding: 0 20px;
@@ -45,7 +46,7 @@ export default Vue.extend({
   .left-panel {
     @include flexR;
     span {
-      font-size: 22px;
+      font-size: 24px;
       margin-right: 20px;
     }
     ul li {
@@ -57,6 +58,7 @@ export default Vue.extend({
   .right-panel {
     @include flexR;
     justify-content: flex-end;
+    gap: 20px;
   }
 }
 </style>

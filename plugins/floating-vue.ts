@@ -24,8 +24,6 @@ Vue.use(FloatingVue, {
       placement: 'bottom-start',
     },
     'dapp-tooltip': {
-      showTriggers: ['hover', 'click'],
-      hideTriggers: ['blur', 'click'],
       autoHide: false,
       distance: 4,
       placement: 'top',

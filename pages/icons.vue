@@ -1,6 +1,6 @@
 <template>
   <div class="icons-page">
-    <IconsList></IconsList>
+    <IconsGrid></IconsGrid>
   </div>
 </template>
 
@@ -14,6 +14,6 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .icons-page {
-  padding: 80px 20px 20px 20px;
+  padding: 100px 20px 20px 20px;
 }
 </style>

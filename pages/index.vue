@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div class="homepage"><HomeButtonsGrid /></div>
 </template>
 
 <script lang="ts">
@@ -9,3 +9,9 @@ export default Vue.extend({
   name: 'HomePage',
 })
 </script>
+
+<style lang="scss" scoped>
+.homepage {
+  padding: 100px 20px 20px 20px;
+}
+</style>
