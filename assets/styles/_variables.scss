@@ -9,11 +9,11 @@
   --onSurface: #171e29;
 }
 .dark-mode {
-  --background: #293605;
+  --background: #364313;
   --onBackground: rgb(255, 255, 255);
   --secondary: #000;
   --onSecondary: #fff;
-  --lightText: #282828;
+  --lightText: #a8a8a8;
   --border: #262626;
   --surface: #1f1f1f;
   --onSurface: #d3d3d3;
@@ -30,3 +30,4 @@ $onSurface: var(--onSurface);
 $lightText: var(--lightText);
 $shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 $border: var(--border);
+$dialogRadius: 10px;

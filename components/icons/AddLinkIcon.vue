@@ -4,7 +4,6 @@
     viewBox="0 0 24 24"
     :width="size"
     :height="size"
-    :fill="color"
   >
     <title>Add Link</title>
     <path

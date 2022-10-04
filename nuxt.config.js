@@ -36,6 +36,7 @@ export default {
     '~/plugins/overlay-scrollbars.ts',
     '~/plugins/helpers.ts',
     '~/plugins/message.ts',
+    '~/plugins/highlight.js',
   ],
 
   components: {
@@ -43,6 +44,11 @@ export default {
       '~/components',
       '~/components/icons',
       '~/components/buttons',
+      '~/components/tabs',
+      '~/components/inputs',
+      '~/components/navs',
+      '~/components/dialogs',
+      '~/components/tables',
       '~/blocks',
     ],
   },

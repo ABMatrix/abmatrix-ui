@@ -1,12 +1,18 @@
 <template>
-  <div class="preview-card">
+  <div class="preview-card" :style="{ aspectRatio: ratio }">
     <span class="title">{{ name }}</span>
     <slot />
-    <div class="actions" @click.stop="copyComponent">
-      <VTooltip :show="true" :triggers="[]" :auto-hide="false">
-        <copy-icon></copy-icon>
-        <template #popper> {{ tooltip }} </template>
-      </VTooltip>
+    <div class="actions">
+      <div @click="previewCode">
+        <icon-wrapper>
+          <code-icon :size="16"></code-icon>
+        </icon-wrapper>
+      </div>
+      <div @click="copyComponent">
+        <icon-wrapper>
+          <copy-icon :size="16"></copy-icon>
+        </icon-wrapper>
+      </div>
     </div>
   </div>
 </template>
@@ -14,11 +20,15 @@
 <script lang="ts">
 import Vue from 'vue'
 import copy from 'copy-to-clipboard'
+import { $vfm } from 'vue-final-modal-types'
 import icons from '../tools/icons.json'
 import buttons from '../tools/buttons.json'
+import tabs from '../tools/tabs.json'
+import navs from '../tools/navs.json'
+import tables from '../tools/tables.json'
 
 export default Vue.extend({
-  name: 'PrevireCard',
+  name: 'PreviewCard',
   props: {
     name: {
       type: String,
@@ -28,6 +38,10 @@ export default Vue.extend({
       type: String,
       default: 'icons',
     },
+    ratio: {
+      type: Number,
+      default: 1,
+    },
   },
   data() {
     return {
@@ -36,22 +50,34 @@ export default Vue.extend({
     }
   },
   methods: {
+    previewCode() {
+      const code = this.getCode()
+      $vfm.show('code-dialog', { title: this.name, code })
+    },
     copyComponent() {
-      switch (this.type) {
-        case 'icons':
-          copy((icons as any)[this.name])
-          break
-        case 'buttons':
-          copy((buttons as any)[this.name])
-          break
-        default:
-          break
-      }
+      const code = this.getCode()
+      copy(code)
       this.$message.success(this.$t('copied').toString())
       this.tooltip = 'copied'
       setTimeout(() => {
         this.tooltip = 'copy'
       }, 3000)
+    },
+    getCode() {
+      switch (this.type) {
+        case 'icons':
+          return (icons as any)[this.name]
+        case 'buttons':
+          return (buttons as any)[this.name]
+        case 'tabs':
+          return (tabs as any)[this.name]
+        case 'navs':
+          return (navs as any)[this.name]
+        case 'tables':
+          return (tables as any)[this.name]
+        default:
+          break
+      }
     },
   },
 })
@@ -81,7 +107,8 @@ export default Vue.extend({
     }
   }
   &:hover .actions {
-    display: inline;
+    display: flex;
+    gap: 10px;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { OverlayScrollbarsComponent } from 'overlayscrollbars-vue'
-import 'overlayscrollbars/styles/overlayscrollbars.css'
+import { OverlayScrollbarsPlugin } from 'overlayscrollbars-vue'
+import 'overlayscrollbars/css/OverlayScrollbars.css'
 
-Vue.use(OverlayScrollbarsComponent)
+Vue.use(OverlayScrollbarsPlugin)

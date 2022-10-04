@@ -129,7 +129,7 @@ export default Vue.extend({
   name: 'IconsGrid',
   computed: {
     size() {
-      return this.$breakpoints.lLg ? 100 : this.$breakpoints.lMd ? 80 : 60
+      return this.$breakpoints.lLg ? 80 : this.$breakpoints.lMd ? 70 : 60
     },
   },
 })

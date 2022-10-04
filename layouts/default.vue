@@ -2,6 +2,7 @@
   <div class="default-layout">
     <LayoutHeader></LayoutHeader>
     <Nuxt class="nuxt-page" />
+    <code-dialog></code-dialog>
   </div>
 </template>
 

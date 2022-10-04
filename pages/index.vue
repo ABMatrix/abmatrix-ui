@@ -1,5 +1,10 @@
 <template>
-  <div class="homepage"><HomeButtonsGrid /></div>
+  <div class="homepage">
+    <HomeButtonsGrid />
+    <HomeTabsGrid />
+    <HomeNavsGrid />
+    <HomeTablesGrid />
+  </div>
 </template>
 
 <script lang="ts">

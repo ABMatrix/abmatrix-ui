@@ -2,10 +2,24 @@
   "appName": "website-template",
   "layoutHeader": {
     "component": "組件",
-    "icon": "圖標"
+    "icon": "圖標",
+    "setting": "設置"
   },
   "copied": "複製成功",
   "homeButtonsGrid": {
     "button": "按鈕"
+  },
+  "previewCard": {
+    "code": "代碼"
+  },
+  "clientsTable": {
+    "index": "序號",
+    "address": "地址",
+    "ratio": "比例",
+    "invitationCode": "邀請碼"
+  },
+  "listFooter": {
+    "noMoreData": "沒有更多數據了",
+    "loadMore": "加載更多"
   }
 }

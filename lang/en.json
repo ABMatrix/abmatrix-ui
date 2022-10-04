@@ -1,11 +1,25 @@
 {
-  "appName": "website-template",
+  "clientsTable": {
+    "index": "Index",
+    "address": "Address",
+    "ratio": "Proportion",
+    "invitationCode": "Invitation code"
+  },
+  "listFooter": {
+    "noMoreData": "no more data",
+    "loadMore": "Load more"
+  },
+  "appName": "ABMatrix UI",
+  "copied": "Copied",
+  "homeButtonsGrid": {
+    "button": "button"
+  },
   "layoutHeader": {
     "component": "Components",
-    "icon": "Icons"
+    "icon": "Icons",
+    "setting": "Settings"
   },
-  "copied": "Copy successfully",
-  "homeButtonsGrid": {
-    "button": "Button"
+  "previewCard": {
+    "code": "code"
   }
 }

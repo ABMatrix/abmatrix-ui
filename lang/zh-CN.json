@@ -1,5 +1,21 @@
 {
   "homeButtonsGrid": {
     "button": "按钮"
+  },
+  "layoutHeader": {
+    "setting": "设置"
+  },
+  "previewCard": {
+    "code": "代码"
+  },
+  "clientsTable": {
+    "index": "序号",
+    "address": "地址",
+    "ratio": "比例",
+    "invitationCode": "邀请码"
+  },
+  "listFooter": {
+    "noMoreData": "没有更多数据了",
+    "loadMore": "加载更多"
   }
 }
