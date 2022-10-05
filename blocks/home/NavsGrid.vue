@@ -1,6 +1,6 @@
 <template>
   <div class="home-navs-grid">
-    <h2 class="title">Tabs</h2>
+    <h2 class="title">Navs</h2>
     <div class="grid">
       <preview-card type="navs" name="NavBar" :ratio="4">
         <nav-bar></nav-bar>
