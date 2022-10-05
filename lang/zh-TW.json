@@ -3,7 +3,8 @@
   "layoutHeader": {
     "component": "組件",
     "icon": "圖標",
-    "setting": "設置"
+    "setting": "設置",
+    "svg2vue": "SVG生成組件"
   },
   "copied": "複製成功",
   "homeButtonsGrid": {

@@ -17,7 +17,8 @@
   "layoutHeader": {
     "component": "Components",
     "icon": "Icons",
-    "setting": "Settings"
+    "setting": "Settings",
+    "svg2vue": "SVG2component"
   },
   "previewCard": {
     "code": "code"

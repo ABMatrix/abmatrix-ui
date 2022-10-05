@@ -3,7 +3,8 @@
     "button": "按钮"
   },
   "layoutHeader": {
-    "setting": "设置"
+    "setting": "设置",
+    "svg2vue": "SVG生成组件"
   },
   "previewCard": {
     "code": "代码"

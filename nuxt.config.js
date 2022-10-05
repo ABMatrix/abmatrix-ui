@@ -88,5 +88,11 @@ export default {
     },
   },
 
-  build: {},
+  build: {
+    extend(config) {
+      config.node = {
+        fs: 'empty',
+      }
+    },
+  },
 }

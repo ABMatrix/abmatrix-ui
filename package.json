@@ -28,6 +28,7 @@
     "core-js": "3.25.3",
     "element-ui": "^2.15.10",
     "floating-vue": "^1.0.0-beta.18",
+    "icon2vue": "^0.1.6",
     "nuxt": "2.15.8",
     "nuxt-breakpoints": "1.1.9",
     "overlayscrollbars": "1.13.3",

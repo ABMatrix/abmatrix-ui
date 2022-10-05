@@ -39,9 +39,9 @@ export default Vue.extend({
           display: this.$t('layoutHeader.icon'),
         },
         {
-          name: 'setting',
-          path: '/setting',
-          display: this.$t('layoutHeader.setting'),
+          name: 'svg2vue',
+          path: '/svg2vue',
+          display: this.$t('layoutHeader.svg2vue'),
         },
       ]
     },

@@ -15,6 +15,11 @@
             {{ $t('layoutHeader.icon') }}
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link :to="localePath('/svg2vue')">
+            {{ $t('layoutHeader.svg2vue') }}
+          </nuxt-link>
+        </li>
       </ul>
     </div>
     <div class="right-panel">
