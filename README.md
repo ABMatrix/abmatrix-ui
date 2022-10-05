@@ -1,5 +1,5 @@
-# website-template-website
+# ABMatrix UI
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b8db5f69-770f-4402-8d30-dd758acf8847/deploy-status)](https://app.netlify.com/sites/beamish-stroopwafel-6e581f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/38d5b20d-8afe-413f-9654-9b91db580aec/deploy-status)](https://app.netlify.com/sites/abmatrix-ui/deploys)
 
-Abmatrix website template based on nuxtjs.
+The repo includes frequently used components in our projects.
