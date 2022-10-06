@@ -22,5 +22,8 @@
   },
   "previewCard": {
     "code": "code"
+  },
+  "svg2vueInput": {
+    "placeholder": "Copy or drag and drop the SVG here"
   }
 }

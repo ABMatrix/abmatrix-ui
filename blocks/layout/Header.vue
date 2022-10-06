@@ -24,6 +24,9 @@
     </div>
     <div class="right-panel">
       <theme-switch></theme-switch>
+      <a href="https://github.com/ABMatrix/abmatrix-ui" target="_blank"
+        ><github-icon :size="24"
+      /></a>
       <language-switch></language-switch>
     </div>
   </div>
@@ -64,6 +67,10 @@ export default Vue.extend({
     @include flexR;
     justify-content: flex-end;
     gap: 20px;
+    a svg {
+      @include flexRc;
+      fill: $onSecondary;
+    }
   }
 }
 </style>

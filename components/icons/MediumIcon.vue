@@ -15,10 +15,6 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'MediumIcon',
   props: {
-    color: {
-      type: String,
-      default: '#222B45',
-    },
     size: {
       type: [String, Number],
       default: 18,
@@ -26,11 +22,3 @@ export default Vue.extend({
   },
 })
 </script>
-<style lang="scss" scoped>
-svg {
-  fill: #8d8d8d;
-}
-svg:hover {
-  fill: white;
-}
-</style>

@@ -48,7 +48,7 @@ export default Vue.extend({
   .button {
     height: 40px;
   }
-  ::v-deep .block {
+  :deep .block {
     margin: 0;
     border-radius: 10px;
   }

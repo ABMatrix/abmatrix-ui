@@ -123,7 +123,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-::v-deep .el-pager li:not(.disabled).active {
+:deep .el-pager li:not(.disabled).active {
   background-color: $primary !important;
 }
 .clients-table {

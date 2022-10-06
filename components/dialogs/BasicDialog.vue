@@ -94,11 +94,11 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-::v-deep .dialog-overlay {
+:deep .dialog-overlay {
   position: fixed !important;
   backdrop-filter: blur(4px);
 }
-::v-deep .dialog-container {
+:deep .dialog-container {
   height: 100%;
   display: flex;
   justify-content: center;

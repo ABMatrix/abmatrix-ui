@@ -22,5 +22,8 @@
   "listFooter": {
     "noMoreData": "沒有更多數據了",
     "loadMore": "加載更多"
+  },
+  "svg2vueInput": {
+    "placeholder": "複製或者脫拽 SVG 到這裡"
   }
 }

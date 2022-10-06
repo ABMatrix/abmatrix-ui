@@ -102,7 +102,7 @@ export default Vue.extend({
   .actions {
     display: none;
     cursor: pointer;
-    ::v-deep svg {
+    :deep svg {
       fill: $onSecondary;
     }
   }

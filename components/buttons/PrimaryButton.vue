@@ -48,7 +48,7 @@ export default Vue.extend({
     border-color: $primary;
   }
   margin-left: 0 !important;
-  ::v-deep .loading-icon svg {
+  :deep .loading-icon svg {
     fill: $onPrimary !important;
   }
 }

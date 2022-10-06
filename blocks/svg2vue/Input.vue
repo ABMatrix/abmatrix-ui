@@ -5,7 +5,7 @@
       v-model="inputValue"
       name="svg"
       rows="30"
-      placeholder="Drop svg file here"
+      :placeholder="$t('svg2vueInput.placeholder')"
     ></textarea>
   </div>
 </template>

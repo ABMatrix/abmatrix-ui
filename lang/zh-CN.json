@@ -18,5 +18,8 @@
   "listFooter": {
     "noMoreData": "没有更多数据了",
     "loadMore": "加载更多"
+  },
+  "svg2vueInput": {
+    "placeholder": "复制或者脱拽 SVG 到这里"
   }
 }

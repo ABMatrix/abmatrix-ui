@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 // Element 输入框
-::v-deep .el-form-item__label {
+:deep .el-form-item__label {
   height: 20px;
   line-height: 20px;
   padding: 0;
@@ -59,7 +59,7 @@ export default {
   color: $onSurface;
   margin-bottom: 10px;
 }
-::v-deep .el-input__inner {
+:deep .el-input__inner {
   width: 100%;
   height: 40px !important;
   border-radius: 4px;

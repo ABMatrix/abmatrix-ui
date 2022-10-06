@@ -2,7 +2,7 @@
   <basic-dialog name="code-dialog" :title="title" @before-open="beforeOpen">
     <template #content>
       <div :key="title" v-highlight>
-        <pre class="language-javascript">
+        <pre class="language-javascript code-block">
         <code>{{ code }}</code>
         </pre>
       </div>
@@ -33,6 +33,10 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+:deep .code-block {
+  margin: 0;
+  border-radius: 10px;
+}
 .footer {
   width: 100%;
   @include flexRsa;
