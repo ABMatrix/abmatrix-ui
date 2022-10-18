@@ -2,8 +2,10 @@
   <div class="menu-wrapper-grid">
     <h2 class="title">MenuWrapper</h2>
     <div class="grid">
-      <preview-card type="menu" name="MenuWrapper" :ratio="2">
-        <div style="height: 100%; width: 100%"><SideMenu> </SideMenu></div>
+      <preview-card type="menus" name="SideMenu" :ratio="2">
+        <div style="height: 100%; width: 100%">
+          <MenusSideMenu> </MenusSideMenu>
+        </div>
       </preview-card>
     </div>
   </div>
@@ -13,7 +15,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'MenuWrapperGrid',
+  name: 'MenusGrid',
 })
 </script>
 

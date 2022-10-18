@@ -1,6 +1,6 @@
 <template>
   <div class="homepage">
-    <HomeMenuWrapperGrid />
+    <HomeMenusGrid />
     <HomeButtonsGrid />
     <HomeTabsGrid />
     <HomeNavsGrid />
