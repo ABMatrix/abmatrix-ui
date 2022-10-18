@@ -35,13 +35,13 @@
           'menu-children-expand': mode === 'inline' && expandKey === item.id,
         }"
       >
-        <SideMenu
+        <MenusSideMenu
           :menu-data="item.children"
           :selected-key.sync="localeSelectedKey"
           :level="parentLaval ? `${parentLaval}-${index}` : `${index}`"
           :mode="mode"
           @onSelect="onSelect"
-        ></SideMenu>
+        ></MenusSideMenu>
       </div>
     </div>
   </div>
