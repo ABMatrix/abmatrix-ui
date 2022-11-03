@@ -27,6 +27,7 @@ import tabs from '../tools/tabs.json'
 import navs from '../tools/navs.json'
 import tables from '../tools/tables.json'
 import menus from '../tools/menus.json'
+import loading from '../tools/loading.json'
 
 export default Vue.extend({
   name: 'PreviewCard',
@@ -78,6 +79,8 @@ export default Vue.extend({
           return (tables as any)[this.name]
         case 'menus':
           return (menus as any)[this.name]
+        case 'loading':
+          return (loading as any)[this.name]
         default:
           break
       }
