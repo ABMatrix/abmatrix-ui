@@ -49,6 +49,7 @@ export default {
       '~/components/navs',
       '~/components/dialogs',
       '~/components/tables',
+      '~/components/loading',
       '~/blocks',
     ],
   },

@@ -5,6 +5,7 @@
     <HomeTabsGrid />
     <HomeNavsGrid />
     <HomeTablesGrid />
+    <HomeLoadingGrid />
   </div>
 </template>
 
