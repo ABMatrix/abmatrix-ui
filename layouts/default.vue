@@ -17,8 +17,9 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .default-layout {
   height: 100%;
+  background: $background;
+
   .nuxt-page {
-    background: $background;
   }
 }
 </style>

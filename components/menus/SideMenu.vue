@@ -202,13 +202,12 @@ export default Vue.extend({
       justify-content: space-between;
       align-items: center;
       flex-wrap: nowrap;
+      color: $onBackground;
+      padding: 0 10px;
 
       &.selected {
         background-color: lighten($primary, 10) !important;
-
-        &:hover {
-          color: black;
-        }
+        color: $onPrimary;
       }
 
       .expand-icon {
@@ -258,17 +257,17 @@ export default Vue.extend({
 
     &.menu-group-side {
       .menu-item {
-        &:hover {
+        /* &:hover {
           color: $primary;
-        }
+        } */
 
         &.menu-group-item {
-          color: #12121275;
+          color: $onBackground;
           font-weight: 500;
 
-          &:hover {
+          /* &:hover {
             color: #12121275;
-          }
+          } */
         }
       }
 
