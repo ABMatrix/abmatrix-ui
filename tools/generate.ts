@@ -2,7 +2,16 @@
 
 import path from 'path'
 import fs from 'fs'
-const types = ['icons', 'buttons', 'tabs', 'navs', 'tables', 'menus', 'loading']
+const types = [
+  'icons',
+  'buttons',
+  'tabs',
+  'navs',
+  'tables',
+  'menus',
+  'loading',
+  'checkbox',
+]
 
 async function generate(type: string) {
   const sourceDirPath = path.join(__dirname, `../components/${type}/`)
