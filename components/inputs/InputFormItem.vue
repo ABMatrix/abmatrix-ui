@@ -1,6 +1,15 @@
 <template>
-  <el-form-item :label="label" :prop="prop">
+  <el-form-item :label="label" :prop="prop" :rules="rules">
+    <el-input-number
+      v-if="isNumber"
+      v-model="inputValue"
+      :prop="prop"
+      :disabled="disabled"
+      :controls="false"
+      :placeholder="placeholder"
+    ></el-input-number>
     <el-input
+      v-else
       v-model="inputValue"
       :prop="prop"
       :placeholder="placeholder"
@@ -27,10 +36,18 @@ export default {
       required: true,
     },
     value: {
-      type: String,
-      default: '',
+      type: [Number, String, undefined],
+      default: undefined,
+    },
+    rules: {
+      type: Array,
+      default: undefined,
     },
     disabled: {
+      type: Boolean,
+      default: false,
+    },
+    isNumber: {
       type: Boolean,
       default: false,
     },
@@ -58,6 +75,12 @@ export default {
   font-weight: 500;
   color: $onSurface;
   margin-bottom: 10px;
+}
+:deep .el-input-number {
+  width: 100%;
+  .el-input__inner {
+    text-align: left;
+  }
 }
 :deep .el-input__inner {
   width: 100%;

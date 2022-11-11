@@ -21,5 +21,13 @@
   },
   "svg2vueInput": {
     "placeholder": "复制或者脱拽 SVG 到这里"
+  },
+  "formBatch": {
+    "submit": "提交",
+    "plzInputName": "请输入名称",
+    "plzInputvalue": "请输入值",
+    "valueLimit": "输入的值不符合",
+    "valueMax": "最多限制{num}组",
+    "success": "提交成功"
   }
 }

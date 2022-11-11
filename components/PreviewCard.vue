@@ -24,6 +24,7 @@ import { $vfm } from 'vue-final-modal-types'
 import icons from '../tools/icons.json'
 import buttons from '../tools/buttons.json'
 import tabs from '../tools/tabs.json'
+import forms from '../tools/forms.json'
 import navs from '../tools/navs.json'
 import tables from '../tools/tables.json'
 import menus from '../tools/menus.json'
@@ -74,6 +75,8 @@ export default Vue.extend({
           return (buttons as any)[this.name]
         case 'tabs':
           return (tabs as any)[this.name]
+        case 'forms':
+          return (forms as any)[this.name]
         case 'navs':
           return (navs as any)[this.name]
         case 'tables':
