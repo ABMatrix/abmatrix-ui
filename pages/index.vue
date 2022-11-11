@@ -22,9 +22,10 @@ export default Vue.extend({
     return {
       menuList: [
         { id: 'checkbox', component: 'home-checkbox-grid', label: 'Checkbox' },
-        { id: 'menus', component: 'home-menus-grid', label: 'Mensu' },
+        { id: 'menus', component: 'home-menus-grid', label: 'Menu' },
         { id: 'buttons', component: 'home-buttons-grid', label: 'Buttons' },
         { id: 'tabs', component: 'home-tabs-grid', label: 'Tabs' },
+        { id: 'forms', component: 'home-forms-grid', label: 'Forms' },
         { id: 'navs', component: 'home-navs-grid', label: 'Navs' },
         { id: 'tables', component: 'home-tables-grid', label: 'Tables' },
         { id: 'loading', component: 'home-loading-grid', label: 'Loading' },

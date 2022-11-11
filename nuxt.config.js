@@ -45,6 +45,7 @@ export default {
       '~/components/icons',
       '~/components/buttons',
       '~/components/tabs',
+      '~/components/forms',
       '~/components/inputs',
       '~/components/navs',
       '~/components/dialogs',

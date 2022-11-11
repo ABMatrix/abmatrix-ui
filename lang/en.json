@@ -25,5 +25,13 @@
   },
   "svg2vueInput": {
     "placeholder": "Copy or drag and drop the SVG here"
+  },
+  "formBatch": {
+    "submit": "Submit",
+    "plzInputName": "Please enter a name",
+    "plzInputvalue": "please input the value",
+    "valueLimit": "The entered value does not match",
+    "valueMax": "Limit {num} groups at most",
+    "success": "Submitted successfully"
   }
 }

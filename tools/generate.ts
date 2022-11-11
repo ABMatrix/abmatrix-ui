@@ -6,6 +6,7 @@ const types = [
   'icons',
   'buttons',
   'tabs',
+  'forms',
   'navs',
   'tables',
   'menus',
