@@ -25,5 +25,7 @@
   },
   "svg2vueInput": {
     "placeholder": "Copy or drag and drop the SVG here"
-  }
+  },
+  "notData": "Not Data",
+  "notComponent": "Not Componnet"
 }

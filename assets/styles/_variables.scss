@@ -7,6 +7,7 @@
   --border: #f1f1f1;
   --surface: #f1f1f1;
   --onSurface: #171e29;
+  --shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 .dark-mode {
   --background: #000000;
@@ -17,6 +18,7 @@
   --border: #262626;
   --surface: #1f1f1f;
   --onSurface: #d3d3d3;
+  --shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.1);
 }
 
 $primary: #368c72;
@@ -28,7 +30,7 @@ $onSecondary: var(--onSecondary);
 $surface: var(--surface);
 $onSurface: var(--onSurface);
 $lightText: var(--lightText);
-$shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+$shadow: var(--shadow);
 $border: var(--border);
 $dialogRadius: 10px;
 $error: #ff4d4f;

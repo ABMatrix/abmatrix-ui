@@ -21,5 +21,7 @@
   },
   "svg2vueInput": {
     "placeholder": "复制或者脱拽 SVG 到这里"
-  }
+  },
+  "notData": "没有数据",
+  "notComponent": "没有组件"
 }
